@@ -1,0 +1,407 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+header,main,footer,aside,nav{
+	display:block;
+}
+
+#wrapper{	
+	position:relative;
+	width:100%;
+	margin:0px auto;
+}
+
+h1{
+	font-family: 'Fontdiner Swanky', cursive;
+	position: relative;
+	font-size: 310%;
+	top: 30px;
+	color: #545151;
+	padding-bottom: 5px;
+	margin-top:-6%;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+/*---------header----------*/
+
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 15%;
+	width:100%;
+	background-color: #f9f9f9;
+}
+
+.headerLogo{
+		background-image: url("../images/pokerface3.png");
+		width:200px;
+		height: 180px;;
+		position: absolute;
+		top:12%;
+		left:10%;
+}
+
+.dollars1000,.points1000,.userc,.user,.points,.dollars,.littleCrown,.userWithCrown{
+		position: absolute;
+}
+
+.user{
+	top:32%;
+	left:85%;
+}
+
+.points{
+	top:125%;
+	right:100%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 300%;
+	color: #545151;
+}
+
+.dollars{
+	top:120%;
+	right: -60%;	
+}
+
+.userc{
+	top:15%;
+	left:82%;
+}
+
+.points1000{
+	top:125%;
+	right:70%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 300%;
+	color: #545151;
+}
+
+.dollars1000{
+	top:120%;
+	right: -30%;	
+}
+
+
+/*---------nav---------*/
+
+#navMenu{
+	position:fixed;
+	left:0;
+	bottom:0;
+	height: 10%;
+	width:100%;
+	background-color: #e3e3e3;
+}
+
+ul{
+	list-style-type:none
+}
+
+.clear{
+	clear:both;
+}
+
+#wrapper>nav>ul>li>a{
+	position: absolute;
+	float:left;
+}
+
+.myProfile,.cam,.add,.request,.loc{
+	bottom: 20%;
+}
+
+.myProfile {
+	left: 8%;
+}
+
+.cam{
+	left: 28%;	
+}
+
+.add{
+	left: 48%;
+}
+
+.request{
+	left: 68%;
+}
+
+.loc{
+	left: 88%;	
+}
+
+/*---------index----------*/
+
+#bumpMain{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background-color: #ffffff;
+}
+
+.textLogIn{
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	color:#888888;
+}
+
+#start{
+	top: 40%;
+	left:26%;
+	font-size: 460%;
+}
+
+#bump,#logo{
+	position: absolute;
+}
+
+#bump{
+	top: 48%;
+	left:28%;
+}
+
+#logo{
+	top: 10%;
+	left:8%;
+}
+/*---------playersList----------*/
+
+#appMain{
+	position: fixed;
+	top:20%;
+	width:100%;
+	background-color: #FFFFFF;
+}
+
+#playersTitle{	
+	left:40%;	
+}
+
+#navPlayersList{
+	position:relative;
+	font-family: 'Indie Flower', cursive;
+	font-size: 300%;
+}
+
+#navPlayersList>ul>li>a>article{
+	position:relative;
+	padding-top:5%;	
+	left:10%;
+}
+
+.textName{
+	position:absolute;
+	top: 50%;
+	left:30%;
+	color: #707070;
+}
+
+.textNameTomer{
+	position:absolute;
+	top: 50%;
+	left:30%;
+	color: #829fcc;
+}
+
+.arrow{
+	position:absolute;
+	top: 50%;
+	left:75%;
+}
+
+.borderList{
+	position:absolute;
+	/*left:0px;*/
+	border-bottom: 2px solid #e3e3e3;
+	width:100%;	
+}
+/*-----------hands------------*/
+
+#handsTitle{	
+	margin-top:-6%;
+	left:39%;
+	padding-bottom: 5px;
+}
+
+#sectionHands{
+	font-family: 'Indie Flower', cursive;
+	font-size: 155%;
+}
+
+#sectionHands a article{
+	position: absolute;
+}
+
+#sectionHands a article article{
+	color: #707070;
+	text-decoration: none;
+	margin-left:15%;
+}
+
+#royalFlush{
+	left:25%;	
+}
+
+#straightFlush{
+	left:55%;
+}
+
+#royalFlush,#straightFlush{
+	top: 600%;
+}
+
+#fourOfAkind,#fullHouse,#flush{
+	top: 1600%;
+}
+
+#straight,#threeOfAkind,#twoPairs{
+	top: 2600%;
+}
+
+#onePair,#highHand,#withoutExposing{
+	top:3600%;
+}
+
+#fourOfAkind,#straight,#onePair{
+	left:10%;	
+}
+
+#fullHouse,#threeOfAkind,#highHand{
+	left:40%;
+}
+
+#flush,#twoPairs,#withoutExposing{
+	left:70%;
+}
+
+/*----------report players------------*/
+
+#reportTitle{
+	left:29%;
+}
+
+#userReported1,#userReported2{
+	position: absolute;
+	left:40%;
+}
+
+#userReported1{
+	top:500%;
+}
+
+#userReported2{	
+	top:2200%;
+}
+
+.good,.cheating{
+	position: absolute;
+	font-family: 'Indie Flower', cursive;
+	color: #545151;
+	font-size: 220%;
+}
+
+.good{
+	top:1450%;
+	left:43%;
+}
+
+.cheating{
+	top:3150%;
+	left:45%;
+}
+
+/*------------best hand------------*/
+
+#bestHandTitle{
+	left:35%;	
+}
+
+#win, #points{	
+	font-family: 'Indie Flower', cursive;
+	position:absolute;
+	font-size: 350%;
+	color: #545151
+}
+
+#win{
+	margin-left:21%;
+	margin-top:15%;
+}
+
+#points{
+	margin-left:25%;
+	margin-top:25%;
+}
+
+#userC{
+	position: absolute;
+	margin-top:40%;
+	margin-left:31%;
+}
+
+#share{	
+	position:relative;
+	margin-top:80%;
+}
+
+#facebookB,#twitterB,#gB{
+	position: absolute;
+}
+
+#facebookB{	
+	left:22%;
+}
+
+#twitterB{
+	left:42%;
+}
+
+#gB{
+	left:62%;
+}
+
+/*------------report good------------*/
+
+#goodR, #goodR1{
+	font-family: 'Indie Flower', cursive;
+	position:absolute;
+	font-size: 350%;
+	color: #545151;	
+}
+
+#goodR{	
+	margin-left:10%;
+	margin-top:-65%;
+}
+
+#goodR1{
+	margin-left:35%;
+	margin-top:-50%;
+}
+
+#pointsR,#dollarsR{
+	position: absolute;
+}
+
+#pointsR{
+	margin-left:40%;
+	margin-top:-30%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 400%;
+	color: #545151;	
+}
+
+#dollarsR{	
+	margin-left:50%;
+	margin-top:-28%;
+}
+
+
